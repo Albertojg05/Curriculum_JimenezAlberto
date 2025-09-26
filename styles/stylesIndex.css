@@ -1,0 +1,25 @@
+@import url(global.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header li a{
+    color: var(--links-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header li a:hover {
+    color: var(--links-color-hover);
+}

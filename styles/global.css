@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #F5F5F5;
+    --text-color: #212121;
+    --links-color: #FF6F00;
+    --links-color-hover: #34495E;
+    --nav-links: #008F39;
+    --highlight: #006633;
+    --footer-color: #355e3f;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li a {
+    color: var(--nav-links);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav li a:hover {
+    color: var(--links-color-hover);
+}
+
+header h1 {
+    color: var(--highlight);
+    text-align: center;
+    text-transform: uppercase
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Quicksand", sans-serif;
+}
+
+footer p {
+    color: var(--footer-color);
+}
