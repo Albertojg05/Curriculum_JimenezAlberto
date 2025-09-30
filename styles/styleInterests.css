@@ -1,2 +1,19 @@
 @import url(global.css);
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--highlight);
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+main section {
+    flex: 1;
+    min-width: 300px;
+}

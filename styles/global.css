@@ -48,3 +48,35 @@ nav ul {
     border-bottom: 2px solid var(--highlight);
     padding-bottom: 10px;
 }
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--bg-sections);
+    border-radius: 8px;
+}
+
+main section ol li {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+main section ul li {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}

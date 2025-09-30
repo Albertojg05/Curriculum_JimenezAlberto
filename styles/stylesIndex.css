@@ -1,22 +1,10 @@
 @import url(global.css);
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-body {
-    margin: 0;
-    padding: 20px;
-}
-
-header,
-nav,
-main,
-footer {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 header img {
     display: block;
     margin: auto;
+    margin-bottom: 15px;
     width: 150px;
     height: 150px;
 }
@@ -35,25 +23,6 @@ header li a {
 
 header li a:hover {
     color: var(--links-color-hover);
-}
-
-main section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: var(--bg-sections);
-    border-radius: 8px;
-}
-
-main section ol li {
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-main section ul li {
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
 }
 
 header li a[href^="mailto:"]::before {
